@@ -92,12 +92,12 @@
 
 #### URL
 
-```http
+```
 http://127.0.0.1:8000/generate/
 ```
 #### Пример запроса
 
-```http
+```
 POST
 Content-Type: application/json
 
@@ -109,7 +109,7 @@ Body: {
 ```
 #### Пример ответа
 
-```http
+```
 HTTP 201 Created
 Allow: POST, OPTIONS
 Content-Type: application/json
@@ -126,12 +126,12 @@ Vary: Accept
 
 #### URL
 
-```http
+```
 http://127.0.0.1:8000/secrets/<str:secret_key>/
 ```
 #### Пример запроса
 
-```http
+```
 POST
 Content-Type: application/json
 
@@ -141,7 +141,7 @@ Body: {
 ```
 #### Пример ответа
 
-```http
+```
 HTTP 200 OK
 Allow: POST, OPTIONS
 Content-Type: application/json
